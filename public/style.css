@@ -2,17 +2,21 @@ body {
     margin-top: 2em;
 }
 
+#chatArea {
+    display: none;
+}
+
 #chat {
     list-style-type: none;
     margin: 0;
     padding: 0.5em 0;
 }
 
-#single-message{
+#singleMessage{
     padding: 0.1em 0.5em;
 }
 
-#single-message:nth-child(odd) {
+#singleMessage:nth-child(odd) {
     background: #eee;
     border-radius: 0.2em;
 }
