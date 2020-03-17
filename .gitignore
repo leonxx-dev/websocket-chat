@@ -1,0 +1,3 @@
+#Ignore all .c9 specific files<br>
+/.c9/
+node_modules
